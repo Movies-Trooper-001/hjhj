@@ -80,21 +80,9 @@
     var chartData2 = {
         labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
         datasets: [{
-                label: "Single",
+                label: "Daily Snatches",
                 data: [15, 30, 55, 45, 70, 65, 85],
-                backgroundColor: "rgba(235, 22, 22, .6)",
-                fill: true
-            },
-            {
-                label: "Batch",
-                data: [99, 135, 170, 130, 190, 180, 270],
-                backgroundColor: "rgba(235, 22, 22, .3)",
-                fill: true
-            },
-            {
-                label: "Set",
-                data: [135, 170, 130, 190, 180, 270, 300],
-                backgroundColor: "rgba(235, 22, 22, .1)",
+                backgroundColor: "rgba(235, 22, 22, .4)",
                 fill: true
             }
         ]
